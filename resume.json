@@ -1,0 +1,133 @@
+{
+  "basics": {
+    "name": "戴均民",
+    "label": "網站後端工程師",
+    "picture": "https://taichunmin.idv.tw/images/gavatar_20131117.jpg",
+    "email": "taichunmin@gmail.com",
+    "phone": "0932859222",
+    "website": "https://taichunmin.idv.tw",
+    "summary": "從高中因為社團接觸 ACM，然後大學開始自學 PHP。主要是後端工程師，前端略有涉略，美工超級不擅長。  請大家多多指教。",
+    "location": {
+      "address": "南和路155號2樓之3",
+      "postalCode": "402",
+      "city": "南區",
+      "countryCode": "TW",
+      "region": "台中"
+    },
+    "profiles": [
+      {
+        "network": "Facebook",
+        "username": "taichunmin",
+        "url": "https://www.facebook.com/taichunmin"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "天匠數位娛樂股份有限公司",
+      "position": "伺服器工程師",
+      "website": "https://goo.gl/eXMTw4",
+      "startDate": "2014-08-11",
+      "endDate": "2017-06-30",
+      "summary": "主要負責遊戲的伺服器程式開發，以及遊戲伺服器的架設以及維護。",
+      "highlights": [
+        "使用 Ubuntu + PHP + MySQL + Nginx + Node.js + Redis",
+        "使用的雲端伺服器有 AWS 和 阿里雲",
+        "使用 Git 控管程式碼",
+        "遊戲有在台灣、中國、美國的 iOS 和 Android 上架",
+        "玩家帳號數量約 100 萬"
+      ]
+    },
+    {
+      "company": "國立中興大學 圖書館",
+      "position": "網站維護工讀生",
+      "website": "http://ir.lib.nchu.edu.tw/",
+      "startDate": "2011-08-01",
+      "endDate": "2014-06-30",
+      "summary": "負責維護中興大學的機構典藏相關網站。包含簡易程式修改，資料庫批次匯入匯出、及撰寫爬蟲程式。",
+      "highlights": [
+        "撰寫爬蟲抓取學校其他系統的資料放入機構典藏網站",
+        "協助翻譯 DSpace 系統成繁體中文"
+      ]
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "中興大學資訊社",
+      "position": "Teacher",
+      "website": "https://www.facebook.com/it.nchu/",
+      "startDate": "2012-09-01",
+      "endDate": "",
+      "summary": "在社團擔任講師，曾講過 ACM、HTML5、MySQL、Git、正規表示法。",
+      "highlights": []
+    }
+  ],
+  "education": [
+    {
+      "institution": "國立中興大學",
+      "area": "資訊科學與工程學系",
+      "studyType": "學士",
+      "startDate": "2010-09",
+      "endDate": "2014-06",
+      "gpa": "",
+      "courses": []
+    },
+    {
+      "institution": "國立彰化高中",
+      "area": "普通科",
+      "studyType": "高中",
+      "startDate": "2006-09",
+      "endDate": "2009-06",
+      "gpa": "",
+      "courses": []
+    }
+  ],
+  "awards": [],
+  "publications": [],
+  "skills": [
+    {
+      "name": "網站前端",
+      "level": "精通",
+      "keywords": [
+        "HTML",
+        "CSS",
+        "Javascript"
+      ]
+    },
+    {
+      "name": "網站後端",
+      "level": "精通",
+      "keywords": [
+        "Ubuntu",
+        "AWS",
+        "PHP",
+        "MySQL",
+        "Node.js"
+      ]
+    },
+    {
+      "name": "其他程式語言",
+      "level": "中等",
+      "keywords": [
+        "C++",
+        "Python"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "繁體中文",
+      "fluency": "母語"
+    },
+    {
+      "language": "台語",
+      "fluency": "中等"
+    },
+    {
+      "language": "English",
+      "fluency": "中等"
+    }
+  ],
+  "interests": [],
+  "references": []
+}
