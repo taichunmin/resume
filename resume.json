@@ -6,7 +6,7 @@
     "email": "taichunmin@gmail.com",
     "phone": "0932859222",
     "website": "https://taichunmin.idv.tw",
-    "summary": "從高中因為社團接觸 ACM，然後大學開始自學 PHP。主要是後端工程師，前端略有涉略，美工超級不擅長。  請大家多多指教。",
+    "summary": "從高中因為社團接觸 ACM，大學開始自學 PHP 並開始嘗試接網站維護的工讀。大學畢業後曾在遊戲公司任職。主要是網站後端工程師，前端略有涉略，美工超級不擅長。",
     "location": {
       "address": "南和路155號2樓之3",
       "postalCode": "402",
@@ -28,10 +28,10 @@
       "position": "伺服器工程師",
       "website": "https://goo.gl/eXMTw4",
       "startDate": "2014-08-11",
-      "endDate": "2017-06-30",
-      "summary": "主要負責遊戲的伺服器程式開發，以及遊戲伺服器的架設以及維護。",
+      "endDate": "2017-07-08",
+      "summary": "主要負責手機遊戲伺服器程式的開發、架設以及維護。負責的遊戲為「奇幻射擊2」及一款尚未上市的遊戲。",
       "highlights": [
-        "使用 Ubuntu + PHP + MySQL + Nginx + Node.js + Redis",
+        "使用的系統架構為 Ubuntu + PHP + MySQL + Nginx + Node.js + Redis",
         "使用的雲端伺服器有 AWS 和 阿里雲",
         "使用 Git 控管程式碼",
         "遊戲有在台灣、中國、美國的 iOS 和 Android 上架",
@@ -39,26 +39,89 @@
       ]
     },
     {
-      "company": "國立中興大學 圖書館",
+      "company": "興大圖書館校史館組",
       "position": "網站維護工讀生",
       "website": "http://ir.lib.nchu.edu.tw/",
       "startDate": "2011-08-01",
       "endDate": "2014-06-30",
-      "summary": "負責維護中興大學的機構典藏相關網站。包含簡易程式修改，資料庫批次匯入匯出、及撰寫爬蟲程式。",
+      "summary": "負責維護中興大學的機構典藏及校史相關網站及開發輔助程式。包含簡易程式修改，資料庫批次匯入匯出程式、及撰寫爬蟲程式。",
       "highlights": [
         "撰寫爬蟲抓取學校其他系統的資料放入機構典藏網站",
-        "協助翻譯 DSpace 系統成繁體中文"
+        "協助翻譯 DSpace 系統成繁體中文",
+        "協助翻新中興大學校史網站 (Joomla)",
+        "協助翻新中興大學圖書館首頁 (Joomla)"
       ]
+    },
+    {
+      "company": "興大資工前瞻無線資訊網路實驗室",
+      "position": "網站維護工讀生",
+      "website": "https://awin.cs.nchu.edu.tw/",
+      "startDate": "2013-11-01",
+      "endDate": "2014-06-30",
+      "summary": "綠能科技相關的網站製作。可呈現探測器所記錄的資料給使用者 (含手機版網站)。",
+      "highlights": []
+    },
+    {
+      "company": "國立中興大學校友中心",
+      "position": "網站維護工讀生",
+      "website": "http://alumni.nchu.edu.tw/",
+      "startDate": "2012-09-01",
+      "endDate": "2013-06-30",
+      "summary": "中興校友網站維護以及校友捐款紀錄系統，含獎狀列印、公文自動生成。",
+      "highlights": []
+    },
+    {
+      "company": "興大圖書館參考組",
+      "position": "網站維護工讀生",
+      "website": "http://cal.lib.nchu.edu.tw/",
+      "startDate": "2012-09-01",
+      "endDate": "2013-06-30",
+      "summary": "圖書館館藏教育利用系統：報名、最新消息、預約開課、簽到單列印、匯出名單 CSV、教材。",
+      "highlights": []
     }
   ],
   "volunteer": [
     {
       "organization": "中興大學資訊社",
-      "position": "Teacher",
+      "position": "講師",
       "website": "https://www.facebook.com/it.nchu/",
       "startDate": "2012-09-01",
-      "endDate": "",
-      "summary": "在社團擔任講師，曾講過 ACM、HTML5、MySQL、Git、正規表示法。",
+      "endDate": "至今",
+      "summary": "在社團擔任講師，培訓參加社團的學弟妹。",
+      "highlights": [
+        "曾講過 HTML5、MySQL、Git、正規表示法等課程",
+        "帶領學弟為 NCPC、ACM 等比賽、及 CPE 證照進行練習",
+        "每年和學弟一起參加 COSCUP 開源人年會、SITCON 學生計算機年會",
+        "從淘寶買材料向學弟學習製作星際大戰 LED 光劍"
+      ]
+    },
+    {
+      "organization": "中興大學學生會資訊部",
+      "position": "顧問",
+      "website": "http://nchusg.org/",
+      "startDate": "2013-09-01",
+      "endDate": "2014-06-30",
+      "summary": "教導學弟寫程式以及學生會官網的架設。",
+      "highlights": [
+        "伺服器使用 Linode"
+      ]
+    },
+    {
+      "organization": "彰化高中小蝸牛服務隊",
+      "position": "21屆總務長",
+      "website": "https://www.facebook.com/CHSHsnail/",
+      "startDate": "2009-07-01",
+      "endDate": "2012-06-30",
+      "summary": "回母校帶領小蝸牛校友服務隊，與學弟分享人生經驗，還有籌辦彰化高中的新生訓練，回饋母校，盡一己之薄力。",
+      "highlights": []
+    },
+    {
+      "organization": "彰化高中電腦技術研究社",
+      "position": "程設教學長",
+      "website": "https://goo.gl/5sgqKm",
+      "startDate": "2007-09-01",
+      "endDate": "2008-06-30",
+      "summary": "進行 C++教學，帶領學弟練習 ACM、為學科能力競賽與 IOI 準備。",
       "highlights": []
     }
   ],
@@ -73,6 +136,15 @@
       "courses": []
     },
     {
+      "institution": "聯合大學",
+      "area": "資訊工程系",
+      "studyType": "大學",
+      "startDate": "2009-09",
+      "endDate": "2010-06",
+      "gpa": "",
+      "courses": []
+    },
+    {
       "institution": "國立彰化高中",
       "area": "普通科",
       "studyType": "高中",
@@ -80,37 +152,53 @@
       "endDate": "2009-06",
       "gpa": "",
       "courses": []
+    },
+    {
+      "institution": "彰化縣立陽明國中",
+      "area": "普通班",
+      "studyType": "國中",
+      "startDate": "2003-09",
+      "endDate": "2006-06",
+      "gpa": "",
+      "courses": []
     }
   ],
-  "awards": [],
+  "awards": [
+    {
+      "title": "2013 全國大專校院開放軟體創作競賽 銅牌",
+      "date": "2013-06-25",
+      "awarder": "教育部長 蔣偉寧",
+      "summary": "「新聞推推樂」作品榮獲 2013 全國大專校院開放軟體創作競賽 雲端網際服務與其他應用組 銅牌"
+    }
+  ],
   "publications": [],
   "skills": [
     {
       "name": "網站前端",
       "level": "精通",
       "keywords": [
-        "HTML",
-        "CSS",
-        "Javascript"
+        "HTML (精通)",
+        "CSS (中等)",
+        "Javascript (中等)"
       ]
     },
     {
       "name": "網站後端",
       "level": "精通",
       "keywords": [
-        "Ubuntu",
-        "AWS",
-        "PHP",
-        "MySQL",
-        "Node.js"
+        "Ubuntu Server (精通)",
+        "AWS (中等)",
+        "PHP (精通)",
+        "MySQL (精通)",
+        "Node.js (中等)"
       ]
     },
     {
       "name": "其他程式語言",
       "level": "中等",
       "keywords": [
-        "C++",
-        "Python"
+        "C++ (精通)",
+        "Python (中等)"
       ]
     }
   ],
