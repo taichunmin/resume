@@ -24,6 +24,15 @@
   },
   "work": [
     {
+      "company": "微程式資訊股份有限公司",
+      "position": "DevOps 高級工程師",
+      "website": "http://www.program.com.tw/",
+      "startDate": "2017-08-15",
+      "endDate": "至今",
+      "summary": "負責推廣 DevOps 相關技術如：Git、Docker、GitLab、GitLab CI、Ansible、看板…等。",
+      "highlights": []
+    },
+    {
       "company": "天匠數位娛樂股份有限公司",
       "position": "伺服器工程師",
       "website": "https://goo.gl/eXMTw4",
