@@ -152,8 +152,8 @@
   ],
   "volunteer": [
     {
-      "organization": "LINE",
-      "position": "LINE API Expert",
+      "organization": "LINE Corporation",
+      "position": "LINE API Expert (Taiwan)",
       "startDate": "2020-08-19",
       "summary": "這個身份僅給予對 LINE 提供的 API 有深刻了解，並且在社群中具有影響力的熟練工程師。",
       "website": "https://lihi1.com/TDYyu",
@@ -212,12 +212,12 @@
       "company": "微程式資訊股份有限公司",
       "position": "高級工程師",
       "startDate": "2017-08-15",
-      "summary": "以 Node.js 開發 LINE 聊天機器人，並負責推廣 DevOps 相關技術如：Git、Docker、GitLab、GitLab CI、Ansible、看板…等。",
+      "summary": "以 Node.js 開發 LINE 聊天機器人，是YouBike 的 LINE 官方帳號主要開發者之一，研究 NFC Mifare 測試卡自動測試，以及推廣 DevOps。",
       "website": "https://www.program.com.tw",
       "highlights": [
-        "LINE 聊天機器人「YouBike 微笑單車」主要開發者，好友數超過 37 萬",
+        "LINE 聊天機器人「YouBike 微笑單車」主要開發者，好友數超過 40 萬",
         "LINE 聊天機器人「YouBike Today - 小幫手」主要開發者，好友數超過 6 萬",
-        "研究 Proxmark3 協助 NFC 卡片的自動化測試",
+        "透過 Proxmark3 研究 NFC Mifare 測試卡自動測試",
         "桌遊社社長，每月定期舉辦桌遊活動"
       ]
     },
