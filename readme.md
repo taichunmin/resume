@@ -2,13 +2,9 @@
 
 <https://jsonresume.org/>
 
-## 更新指令
+## 更新方法
 
-```bash
-npm install -g resume-cli
-resume login
-resume publish
-```
+直接更新到這個 GitHub Gist: <https://gist.github.com/taichunmin/5521c4d0e9dab5303a8e02f2bd0fcc5e>
 
 ## 生成 PDF 版
 
