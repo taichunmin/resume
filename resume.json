@@ -210,6 +210,7 @@
   "work": [
     {
       "company": "微程式資訊股份有限公司",
+      "endDate": "2022-08-25",
       "position": "高級工程師",
       "startDate": "2017-08-15",
       "summary": "以 Node.js 開發 LINE 聊天機器人，是 YouBike 的 LINE 官方帳號主要開發者之一，研究 NFC Mifare 測試卡自動測試，以及推廣 DevOps。",
