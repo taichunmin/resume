@@ -1,0 +1,46 @@
+name: github gist
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [ master ]
+
+concurrency:
+  group: gh-pages-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Dump GitHub context
+        env:
+          ACTION_CONTEXT: |
+            {
+              "env": ${{ toJSON(env) }},
+              "github": ${{ toJSON(github) }},
+              "inputs": ${{ toJSON(inputs) }},
+              "job": ${{ toJSON(job) }},
+              "runner": ${{ toJSON(runner) }},
+              "secrets": ${{ toJSON(secrets) }},
+              "steps": ${{ toJSON(steps) }},
+              "vars": ${{ toJSON(vars) }}
+            }
+        run: echo "$ACTION_CONTEXT" | jq .
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: lts/*
+          cache: 'yarn'
+      - name: install and lint
+        run: |
+          set -ex
+          yarn
+          yarn lint
+      - name: Deploy
+        uses: exuanbo/actions-deploy-gist@v1
+        with:
+          token: ${{ secrets.GIST_TOKEN }}
+          gist_id: 5521c4d0e9dab5303a8e02f2bd0fcc5e
+          file_path: resume.json
+          file_type: text

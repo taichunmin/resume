@@ -1,5 +1,12 @@
 {
+  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/refs/heads/master/schema.json",
   "awards": [
+    {
+      "awarder": "iThome 鐵人賽 主辦單位",
+      "date": "2025-02-15",
+      "summary": "參賽文章「免安裝！一起用 JS 來控制開源的 NFC 讀卡機變色龍吧！」榮獲 JavaScript 組佳作",
+      "title": "2024 iThome 鐵人賽 佳作"
+    },
     {
       "awarder": "教育部長 蔣偉寧",
       "date": "2013-06-25",
@@ -8,12 +15,13 @@
     }
   ],
   "basics": {
+    "birthday": "1991-07-30",
     "email": "taichunmin@gmail.com",
+    "image": "https://www.gravatar.com/avatar/8d9b432d861e4ac0e40954a800ae90a1?s=2048",
     "label": "網站後端工程師",
     "name": "戴均民",
     "phone": "0932859222",
-    "picture": "https://www.gravatar.com/avatar/8d9b432d861e4ac0e40954a800ae90a1?s=2048",
-    "summary": "LINE 數位版名片的作者，LINE 官方認證 API Expert，固定出沒於台中聊天機器人小聚，如果有製作 LINE 聊天機器人的相關疑問，歡迎直接跟我聊聊喔！",
+    "summary": "我是一個網站後端工程師，主要使用 Node.js 來進行開發，曾經從無到有規劃及開發出物聯網的雲端架構；對 LINE 官方帳號的開發也非常熟悉，有不少相關的作品，同時也是經 LINE 官方認證的專家；對使用 JS 與嵌入式設備溝通也有所研究，能透過瀏覽器直接控制 RFID 讀卡機；熱愛開源社群，除了投稿分享之外，也有參與許多開源專案。",
     "website": "https://taichunmin.idv.tw",
     "location": {
       "address": "台灣台中市南區",
@@ -36,6 +44,21 @@
       {
         "network": "Linkedin",
         "url": "https://www.linkedin.com/in/taichunmin",
+        "username": "taichunmin"
+      },
+      {
+        "network": "LINE",
+        "url": "https://line.me/ti/p/~taichunmin",
+        "username": "taichunmin"
+      },
+      {
+        "network": "Instagram",
+        "url": "https://www.instagram.com/tai.chunmin",
+        "username": "tai.chunmin"
+      },
+      {
+        "network": "Telegram",
+        "url": "https://t.me/taichunmin",
         "username": "taichunmin"
       }
     ]
@@ -93,32 +116,62 @@
       "language": "English"
     }
   ],
-  "publications": [],
-  "references": [],
-  "skills": [
+  "meta": {
+    "theme": "macchiato"
+  },
+  "projects": [
     {
-      "level": "中等",
-      "name": "網站前端",
-      "keywords": [
-        "Bootstrap (精通)",
-        "HTML (精通)",
-        "JavaScript (精通)",
-        "jQuery (精通)",
-        "Pug (精通)",
-        "Vue.js (精通)",
-        "CSS (中等)"
+      "description": "A JavaScript SDK for ChameleonUltra support Web Bluetooth API, Web Serial API and Node.js.",
+      "name": "chameleon-ultra.js",
+      "startDate": "2023-08-18",
+      "url": "https://taichunmin.idv.tw/chameleon-ultra.js/",
+      "highlights": [
+        "Support Node.js, Browser",
+        "Written in TypeScript",
+        "MIT License"
       ]
     },
+    {
+      "description": "A cross platform alternative of Node buffer base on UInt8Array.",
+      "name": "@taichunmin/buffer",
+      "startDate": "2024-04-16",
+      "url": "https://taichunmin.idv.tw/js-buffer/",
+      "highlights": [
+        "Support Node.js, Browser and Web Worker",
+        "Written in TypeScript",
+        "MIT License"
+      ]
+    },
+    {
+      "description": "A Bussiness Card For LINE Using LINE Front-end Framework (LIFF) API.",
+      "name": "LINE 數位版名片",
+      "startDate": "2020-07-16",
+      "url": "https://taichunmin.idv.tw/liff-businesscard/",
+      "highlights": [
+        "MIT License"
+      ]
+    }
+  ],
+  "publications": [],
+  "references": [
+    {
+      "name": "中興大學資訊科學與工程學系 陳煥 副教授",
+      "reference": "均民為中興資工系大學部的學生，本人為其修習之「智慧型手機應用程式開發」課程之教授。根據均民的課堂期末專案以及參加之校外比賽，後學很樂意為貴所推薦這一位學生。推薦理由簡述如下：\n\n1. 踴躍參加校外競賽：\n\n均民在大學期間，踴躍地參加許多資訊相關的競賽，如 ACM-ICPC 的區域賽、全國大專電腦設計競賽（NCPC）、中興大學大學部資訊專題決賽、2013 全國大專院校開放軟體創作競賽、大學程式能力檢定（CPE）…等，競賽類型包括單人以及組隊之競賽，競賽內容涵蓋演算法、資料庫、網頁程式語言、智慧型手機應用程式，且均獲得優異的成績，殊堪嘉許。\n\n2. 程式功力紮實：\n\n均民自高中開始，跟隨高中社團練習演算法，在線上解題系統練習許多題目，在大學程式能力檢定（CPE）中，更是拿到了三次 A 級，其中一次更是在參與檢定的考生中拿到前 3.3% 的亮眼成績。均民自大學一年級開始，開始學習網頁程式相關之知識，並且前前後後寫了很多練習用的網頁，在均民於中興大學圖書館工讀期間，更是有一套網頁系統，到目前為止累積了超過八萬人次的瀏覽量。均民自大四開始學習撰寫 Android 平台之應用程式，跟上目前新興的智慧型手機潮流，並且還參與相關之競賽，獲得優異的成績，並且為其專題研究之成果附加額外加值成果。\n\n3. 熱心助人：\n\n均民在大學期間，積極於社團帶領系上學弟練習演算法相關之線上解題系統，並且還於寒暑假期間，回高中母校服務學弟，帶領學弟增加實作能力，實為學弟之楷模。"
+    }
+  ],
+  "skills": [
     {
       "level": "精通",
       "name": "網站後端",
       "keywords": [
         "Express (精通)",
+        "GraphQL (精通)",
         "MySQL (精通)",
         "Node.js (精通)",
-        "PHP (精通)",
         "Redis (精通)",
+        "TypeScript (精通)",
         "C (中等)",
+        "PHP (中等)",
         "Python 3 (中等)",
         "Bash (略懂)"
       ]
@@ -129,6 +182,7 @@
       "keywords": [
         "Docker (精通)",
         "Git (精通)",
+        "GitHub (精通)",
         "Nginx (精通)",
         "Ubuntu (精通)",
         "Apache (中等)",
@@ -140,13 +194,28 @@
       ]
     },
     {
-      "level": "略懂",
+      "level": "中等",
       "name": "物聯網",
       "keywords": [
-        "C++ (精通)",
-        "C (中等)",
+        "MQTT (精通)",
+        "Web Serial (精通)",
+        "C/C++ (中等)",
+        "Web Bluetooth (中等)",
         "LINE Things (略懂)",
         "Arduino (略懂)"
+      ]
+    },
+    {
+      "level": "略懂",
+      "name": "網站前端",
+      "keywords": [
+        "Bootstrap (精通)",
+        "HTML (精通)",
+        "JavaScript (精通)",
+        "Pug (精通)",
+        "Vue.js (精通)",
+        "CSS (中等)",
+        "jQuery (中等)"
       ]
     }
   ],
@@ -155,12 +224,12 @@
       "organization": "LINE Corporation",
       "position": "LINE API Expert (Taiwan)",
       "startDate": "2020-08-19",
-      "summary": "這個身份僅給予對 LINE 提供的 API 有深刻了解，並且在社群中具有影響力的熟練工程師。",
+      "summary": "這個身份是給予對 LINE 提供的 API 有深刻了解，並且在社群中具有影響力的熟練工程師。",
       "website": "https://lihi1.com/TDYyu",
       "highlights": [
-        "跟 LINE API 相關的部落格文章至今 (2022-05-15) 已撰寫超過 43 篇",
-        "在 COSCUP 分享 LINE API 相關主題至今 (2022-05-15) 已超過 3 次",
-        "提供「LINE 數位版名片」給大家使用，至今已超過 100 萬瀏覽次數",
+        "截至 2022-05-15 為止，已撰寫超過 43 篇跟 LINE API 相關的部落格文章",
+        "截至 2022-05-15 為止，已在 COSCUP 分享 LINE API 相關主題超過 3 次",
+        "提供「LINE 數位版名片」給大家使用，截至 2022-05-15 為止已超過 100 萬瀏覽次數",
         "提供「Flex 開發人員工具」官方帳號來輔助 LINE 聊天機器人的開發"
       ]
     },
@@ -208,6 +277,20 @@
     }
   ],
   "work": [
+    {
+      "company": "車能網科技股份有限公司",
+      "endDate": "2025-07-20",
+      "position": "軟體開發部 副理",
+      "startDate": "2022-11-21",
+      "summary": "從無到有規劃了 Ionex 電動車物聯網的雲端，並參與後端及後台管理系統的開發。",
+      "website": "https://ionexenergy.com",
+      "highlights": [
+        "以 Protobuf 格式透過 MQTT 與電動車進行通訊",
+        "參與產測治具、車輛控制、接收感測器資料、遠端下達指令、告警事件、韌體更新等功能的開發",
+        "基於 AWS 的 IoT Core、ECS、Lambda、S3、ECR、Cloud Watch、CloudFront 等服務",
+        "高度整合 GitHub Actions 進行自動化測試及部署"
+      ]
+    },
     {
       "company": "微程式資訊股份有限公司",
       "endDate": "2022-08-25",

@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "jsonresume-theme-even": "^0.26.0",
+    "jsonresume-theme-flat": "^0.3.7",
+    "jsonresume-theme-macchiato": "^1.1.0",
+    "mkdirp": "^3.0.1",
+    "resumed": "^6.1.0"
+  },
+  "peerDependencies": {
+    "puppeteer": "^24.22.0"
+  },
+  "scripts": {
+    "build": "mkdirp ./dist && resumed render ./resume.json --output ./dist/index.html --theme jsonresume-theme-macchiato",
+    "pdf": "mkdirp ./dist && resumed export ./resume.json --output ./dist/resume.pdf --theme jsonresume-theme-macchiato",
+    "lint": "resumed validate ./resume.json"
+  }
+}
