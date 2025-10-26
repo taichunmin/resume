@@ -1,168 +1,249 @@
 {
-  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/refs/heads/master/schema.json",
-  "awards": [
-    {
-      "awarder": "iThome 鐵人賽 主辦單位",
-      "date": "2025-02-15",
-      "summary": "參賽文章「免安裝！一起用 JS 來控制開源的 NFC 讀卡機變色龍吧！」榮獲 JavaScript 組佳作",
-      "title": "2024 iThome 鐵人賽 佳作"
-    },
-    {
-      "awarder": "教育部長 蔣偉寧",
-      "date": "2013-06-25",
-      "summary": "「新聞推推樂」作品榮獲 2013 全國大專校院開放軟體創作競賽 雲端網際服務與其他應用組 銅牌",
-      "title": "2013 全國大專校院開放軟體創作競賽 銅牌"
-    }
-  ],
   "basics": {
-    "birthday": "1991-07-30",
-    "email": "taichunmin@gmail.com",
-    "image": "https://www.gravatar.com/avatar/8d9b432d861e4ac0e40954a800ae90a1?s=2048",
-    "label": "網站後端工程師",
     "name": "戴均民",
+    "label": "網站後端工程師",
+    "image": "https://www.gravatar.com/avatar/8d9b432d861e4ac0e40954a800ae90a1?s=2048",
+    "email": "taichunmin@gmail.com",
     "phone": "0932859222",
+    "birthday": "1991-07-30",
+    "url": "https://taichunmin.idv.tw",
     "summary": "我是一個網站後端工程師，主要使用 Node.js 來進行開發，曾經從無到有規劃及開發出物聯網的雲端架構；對 LINE 官方帳號的開發也非常熟悉，有不少相關的作品，同時也是經 LINE 官方認證的專家；對使用 JS 與嵌入式設備溝通也有所研究，能透過瀏覽器直接控制 RFID 讀卡機；熱愛開源社群，除了投稿分享之外，也有參與許多開源專案。",
-    "website": "https://taichunmin.idv.tw",
     "location": {
       "address": "台灣台中市南區",
+      "postalCode": "402",
       "city": "南區",
       "countryCode": "TW",
-      "postalCode": "402",
       "region": "台中"
     },
     "profiles": [
       {
         "network": "GitHub",
-        "url": "https://github.com/taichunmin",
-        "username": "taichunmin"
+        "username": "taichunmin",
+        "url": "https://github.com/taichunmin"
       },
       {
         "network": "Facebook",
-        "url": "https://www.facebook.com/taichunmin",
-        "username": "taichunmin"
+        "username": "taichunmin",
+        "url": "https://www.facebook.com/taichunmin"
       },
       {
         "network": "Linkedin",
-        "url": "https://www.linkedin.com/in/taichunmin",
-        "username": "taichunmin"
+        "username": "taichunmin",
+        "url": "https://www.linkedin.com/in/taichunmin"
       },
       {
         "network": "LINE",
-        "url": "https://line.me/ti/p/~taichunmin",
-        "username": "taichunmin"
+        "username": "taichunmin",
+        "url": "https://line.me/ti/p/~taichunmin"
       },
       {
         "network": "Instagram",
-        "url": "https://www.instagram.com/tai.chunmin",
-        "username": "tai.chunmin"
+        "username": "tai.chunmin",
+        "url": "https://www.instagram.com/tai.chunmin"
       },
       {
         "network": "Telegram",
-        "url": "https://t.me/taichunmin",
-        "username": "taichunmin"
+        "username": "taichunmin",
+        "url": "https://t.me/taichunmin"
       }
     ]
   },
+  "work": [
+    {
+      "name": "車能網科技股份有限公司",
+      "position": "軟體開發部 副理",
+      "url": "https://ionexenergy.com",
+      "startDate": "2022-11-21",
+      "endDate": "2025-07-20",
+      "summary": "從無到有規劃了 Ionex 電動車物聯網的雲端，並參與伺服器端及後台管理系統的開發。",
+      "highlights": [
+        "以 Protobuf 格式透過 MQTT 與電動車進行通訊",
+        "參與產測治具、車輛控制、接收感測器資料、遠端下達指令、告警事件、韌體更新等功能的開發",
+        "基於 AWS 的 IoT Core、ECS、Lambda、S3、ECR、Cloud Watch、CloudFront 等服務",
+        "高度整合 GitHub Actions 進行自動化測試及部署"
+      ]
+    },
+    {
+      "name": "微程式資訊股份有限公司",
+      "position": "高級工程師",
+      "url": "https://www.program.com.tw",
+      "startDate": "2017-08-15",
+      "endDate": "2022-08-25",
+      "summary": "以 Node.js 開發 LINE 聊天機器人，是 YouBike 的 LINE 官方帳號主要開發者之一，研究 NFC Mifare 測試卡自動測試，以及推廣 DevOps。",
+      "highlights": [
+        "LINE 聊天機器人「YouBike 微笑單車」主要開發者，好友數超過 40 萬",
+        "LINE 聊天機器人「YouBike Today - 小幫手」主要開發者，好友數超過 6 萬",
+        "透過 Proxmark3 研究 NFC Mifare 測試卡自動測試",
+        "桌遊社社長，每月定期舉辦桌遊活動"
+      ]
+    },
+    {
+      "name": "天匠數位娛樂股份有限公司",
+      "position": "伺服器工程師",
+      "url": "https://www.twfile.com/53308529",
+      "startDate": "2014-08-11",
+      "endDate": "2017-07-08",
+      "summary": "主要負責手機遊戲伺服器程式的開發、架設以及維護。負責的遊戲為「奇幻射擊2」及一款尚未上市的遊戲。",
+      "highlights": [
+        "使用的系統架構為 Ubuntu + PHP + MySQL + Nginx + Node.js + Redis",
+        "使用的雲端伺服器有 AWS 和 阿里雲",
+        "使用 Git 控管程式碼",
+        "遊戲有在台灣、中國、美國的 iOS 和 Android 上架",
+        "玩家帳號數量約 100 萬"
+      ]
+    },
+    {
+      "name": "興大圖書館校史館組",
+      "position": "網站維護工讀生",
+      "url": "http://ir.lib.nchu.edu.tw",
+      "startDate": "2011-08-01",
+      "endDate": "2014-06-30",
+      "summary": "負責維護中興大學的機構典藏及校史相關網站及開發輔助程式。包含簡易程式修改，資料庫批次匯入匯出程式、及撰寫爬蟲程式。",
+      "highlights": [
+        "撰寫爬蟲抓取學校其他系統的資料放入機構典藏網站",
+        "協助翻譯 DSpace 系統成繁體中文",
+        "協助翻新中興大學校史網站 (Joomla)",
+        "協助翻新中興大學圖書館首頁 (Joomla)"
+      ]
+    },
+    {
+      "name": "興大資工前瞻無線資訊網路實驗室",
+      "position": "網站維護工讀生",
+      "url": "https://awin.cs.nchu.edu.tw",
+      "startDate": "2013-11-01",
+      "endDate": "2014-06-30",
+      "summary": "綠能科技相關的網站製作。可呈現探測器所記錄的資料給使用者 (含手機版網站)。",
+      "highlights": []
+    },
+    {
+      "name": "國立中興大學校友中心",
+      "position": "網站維護工讀生",
+      "url": "http://alumni.nchu.edu.tw",
+      "startDate": "2012-09-01",
+      "endDate": "2013-06-30",
+      "summary": "中興校友網站維護以及校友捐款紀錄系統，含獎狀列印、公文自動生成。",
+      "highlights": []
+    },
+    {
+      "name": "興大圖書館參考組",
+      "position": "網站維護工讀生",
+      "url": "http://cal.lib.nchu.edu.tw",
+      "startDate": "2012-09-01",
+      "endDate": "2013-06-30",
+      "summary": "圖書館館藏教育利用系統：報名、最新消息、預約開課、簽到單列印、匯出名單 CSV、教材。",
+      "highlights": []
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "LINE Corporation",
+      "position": "LINE API Expert (Taiwan)",
+      "url": "https://developers.line.biz/en/community/api-experts/tw-chun-min-tai/",
+      "startDate": "2020-08-19",
+      "summary": "這個身份是給予對 LINE 提供的 API 有深刻了解，並且熱衷於分享其技術心得的專業人士，其性質類似 Google Developer Expert 和 Microsoft Most Valuable Professional。",
+      "highlights": [
+        "截至 2022-05-15 為止，已撰寫超過 43 篇跟 LINE API 相關的部落格文章",
+        "截至 2022-05-15 為止，已在 COSCUP 分享 LINE API 相關主題超過 3 次",
+        "提供「LINE 數位版名片」給大家使用，截至 2022-05-15 為止已超過 100 萬瀏覽次數",
+        "提供「Flex 開發人員工具」官方帳號來輔助 LINE 聊天機器人的開發"
+      ]
+    },
+    {
+      "organization": "中興大學資訊社",
+      "position": "講師",
+      "url": "https://nchuit.cc",
+      "startDate": "2012-09-01",
+      "summary": "在社團擔任講師，培訓參加社團的學弟妹。",
+      "highlights": [
+        "曾講過 HTML5、MySQL、Git、正規表示法等課程",
+        "帶領學弟為 NCPC、ACM 等比賽、及 CPE 證照進行練習",
+        "每年和學弟一起參加 COSCUP 開源人年會、SITCON 學生計算機年會",
+        "從淘寶買材料向學弟學習製作星際大戰 LED 光劍"
+      ]
+    },
+    {
+      "organization": "中興大學學生會資訊部",
+      "position": "顧問",
+      "url": "https://www.facebook.com/nchusg",
+      "startDate": "2013-09-01",
+      "endDate": "2014-06-30",
+      "summary": "教導學弟寫程式以及學生會官網的架設。",
+      "highlights": [
+        "伺服器使用 Linode"
+      ]
+    },
+    {
+      "organization": "彰化高中小蝸牛服務隊",
+      "position": "21屆總務長",
+      "url": "https://www.facebook.com/CHSHsnail",
+      "startDate": "2009-07-01",
+      "endDate": "2012-06-30",
+      "summary": "回母校帶領小蝸牛校友服務隊，與學弟分享人生經驗，還有籌辦彰化高中的新生訓練，回饋母校，盡一己之薄力。",
+      "highlights": []
+    },
+    {
+      "organization": "彰化高中電腦技術研究社",
+      "position": "程設教學長",
+      "url": "https://www.facebook.com/CHSH.CITRC",
+      "startDate": "2007-09-01",
+      "endDate": "2008-06-30",
+      "summary": "進行 C++教學，帶領學弟練習 ACM、為學科能力競賽與 IOI 準備。",
+      "highlights": []
+    }
+  ],
   "education": [
     {
-      "area": "資訊科學與工程學系",
-      "endDate": "2014-06-01",
-      "gpa": "",
       "institution": "國立中興大學",
-      "startDate": "2010-09-01",
+      "area": "資訊科學與工程學系",
       "studyType": "學士",
+      "startDate": "2010-09-01",
+      "endDate": "2014-06-01",
       "courses": []
     },
     {
-      "area": "資訊工程系",
-      "endDate": "2010-06-01",
-      "gpa": "",
       "institution": "國立聯合大學",
-      "startDate": "2009-09-01",
+      "area": "資訊工程系",
       "studyType": "大學",
+      "startDate": "2009-09-01",
+      "endDate": "2010-06-01",
       "courses": []
     },
     {
-      "area": "普通科",
-      "endDate": "2009-06-01",
-      "gpa": "",
       "institution": "國立彰化高中",
-      "startDate": "2006-09-01",
+      "area": "普通科",
       "studyType": "高中",
+      "startDate": "2006-09-01",
+      "endDate": "2009-06-01",
       "courses": []
     },
     {
-      "area": "普通班",
-      "endDate": "2006-06-01",
-      "gpa": "",
       "institution": "彰化縣立陽明國中",
-      "startDate": "2003-09-01",
+      "area": "普通班",
       "studyType": "國中",
+      "startDate": "2003-09-01",
+      "endDate": "2006-06-01",
       "courses": []
     }
   ],
-  "interests": [],
-  "languages": [
+  "awards": [
     {
-      "fluency": "母語",
-      "language": "繁體中文"
+      "title": "2024 iThome 鐵人賽 佳作",
+      "date": "2025-02-15",
+      "awarder": "iThome 鐵人賽 主辦單位",
+      "summary": "參賽文章「免安裝！一起用 JS 來控制開源的 NFC 讀卡機變色龍吧！」榮獲 JavaScript 組佳作"
     },
     {
-      "fluency": "中等",
-      "language": "台語"
-    },
-    {
-      "fluency": "中等",
-      "language": "English"
-    }
-  ],
-  "meta": {
-    "theme": "macchiato"
-  },
-  "projects": [
-    {
-      "description": "A JavaScript SDK for ChameleonUltra support Web Bluetooth API, Web Serial API and Node.js.",
-      "name": "chameleon-ultra.js",
-      "startDate": "2023-08-18",
-      "url": "https://taichunmin.idv.tw/chameleon-ultra.js/",
-      "highlights": [
-        "Support Node.js, Browser",
-        "Written in TypeScript",
-        "MIT License"
-      ]
-    },
-    {
-      "description": "A cross platform alternative of Node buffer base on UInt8Array.",
-      "name": "@taichunmin/buffer",
-      "startDate": "2024-04-16",
-      "url": "https://taichunmin.idv.tw/js-buffer/",
-      "highlights": [
-        "Support Node.js, Browser and Web Worker",
-        "Written in TypeScript",
-        "MIT License"
-      ]
-    },
-    {
-      "description": "A Bussiness Card For LINE Using LINE Front-end Framework (LIFF) API.",
-      "name": "LINE 數位版名片",
-      "startDate": "2020-07-16",
-      "url": "https://taichunmin.idv.tw/liff-businesscard/",
-      "highlights": [
-        "MIT License"
-      ]
+      "title": "2013 全國大專校院開放軟體創作競賽 銅牌",
+      "date": "2013-06-25",
+      "awarder": "教育部長 蔣偉寧",
+      "summary": "「新聞推推樂」作品榮獲 2013 全國大專校院開放軟體創作競賽 雲端網際服務與其他應用組 銅牌"
     }
   ],
   "publications": [],
-  "references": [
-    {
-      "name": "中興大學資訊科學與工程學系 陳煥 副教授",
-      "reference": "均民為中興資工系大學部的學生，本人為其修習之「智慧型手機應用程式開發」課程之教授。根據均民的課堂期末專案以及參加之校外比賽，後學很樂意為貴所推薦這一位學生。推薦理由簡述如下：\n\n1. 踴躍參加校外競賽：\n\n均民在大學期間，踴躍地參加許多資訊相關的競賽，如 ACM-ICPC 的區域賽、全國大專電腦設計競賽（NCPC）、中興大學大學部資訊專題決賽、2013 全國大專院校開放軟體創作競賽、大學程式能力檢定（CPE）…等，競賽類型包括單人以及組隊之競賽，競賽內容涵蓋演算法、資料庫、網頁程式語言、智慧型手機應用程式，且均獲得優異的成績，殊堪嘉許。\n\n2. 程式功力紮實：\n\n均民自高中開始，跟隨高中社團練習演算法，在線上解題系統練習許多題目，在大學程式能力檢定（CPE）中，更是拿到了三次 A 級，其中一次更是在參與檢定的考生中拿到前 3.3% 的亮眼成績。均民自大學一年級開始，開始學習網頁程式相關之知識，並且前前後後寫了很多練習用的網頁，在均民於中興大學圖書館工讀期間，更是有一套網頁系統，到目前為止累積了超過八萬人次的瀏覽量。均民自大四開始學習撰寫 Android 平台之應用程式，跟上目前新興的智慧型手機潮流，並且還參與相關之競賽，獲得優異的成績，並且為其專題研究之成果附加額外加值成果。\n\n3. 熱心助人：\n\n均民在大學期間，積極於社團帶領系上學弟練習演算法相關之線上解題系統，並且還於寒暑假期間，回高中母校服務學弟，帶領學弟增加實作能力，實為學弟之楷模。"
-    }
-  ],
   "skills": [
     {
-      "level": "精通",
       "name": "網站後端",
+      "level": "精通",
       "keywords": [
         "Express (精通)",
         "GraphQL (精通)",
@@ -177,12 +258,13 @@
       ]
     },
     {
-      "level": "中等",
       "name": "DevOps",
+      "level": "中等",
       "keywords": [
         "Docker (精通)",
         "Git (精通)",
         "GitHub (精通)",
+        "GitHub Actions (精通)",
         "Nginx (精通)",
         "Ubuntu (精通)",
         "Apache (中等)",
@@ -194,20 +276,19 @@
       ]
     },
     {
-      "level": "中等",
       "name": "物聯網",
+      "level": "中等",
       "keywords": [
         "MQTT (精通)",
         "Web Serial (精通)",
         "C/C++ (中等)",
         "Web Bluetooth (中等)",
-        "LINE Things (略懂)",
         "Arduino (略懂)"
       ]
     },
     {
-      "level": "略懂",
       "name": "網站前端",
+      "level": "中等",
       "keywords": [
         "Bootstrap (精通)",
         "HTML (精通)",
@@ -219,147 +300,95 @@
       ]
     }
   ],
-  "volunteer": [
+  "languages": [
     {
-      "organization": "LINE Corporation",
-      "position": "LINE API Expert (Taiwan)",
-      "startDate": "2020-08-19",
-      "summary": "這個身份是給予對 LINE 提供的 API 有深刻了解，並且在社群中具有影響力的熟練工程師。",
-      "website": "https://lihi1.com/TDYyu",
-      "highlights": [
-        "截至 2022-05-15 為止，已撰寫超過 43 篇跟 LINE API 相關的部落格文章",
-        "截至 2022-05-15 為止，已在 COSCUP 分享 LINE API 相關主題超過 3 次",
-        "提供「LINE 數位版名片」給大家使用，截至 2022-05-15 為止已超過 100 萬瀏覽次數",
-        "提供「Flex 開發人員工具」官方帳號來輔助 LINE 聊天機器人的開發"
-      ]
+      "language": "繁體中文",
+      "fluency": "母語"
     },
     {
-      "organization": "中興大學資訊社",
-      "position": "講師",
-      "startDate": "2012-09-01",
-      "summary": "在社團擔任講師，培訓參加社團的學弟妹。",
-      "website": "https://nchuit.cc",
-      "highlights": [
-        "曾講過 HTML5、MySQL、Git、正規表示法等課程",
-        "帶領學弟為 NCPC、ACM 等比賽、及 CPE 證照進行練習",
-        "每年和學弟一起參加 COSCUP 開源人年會、SITCON 學生計算機年會",
-        "從淘寶買材料向學弟學習製作星際大戰 LED 光劍"
-      ]
+      "language": "台語",
+      "fluency": "中等"
     },
     {
-      "endDate": "2014-06-30",
-      "organization": "中興大學學生會資訊部",
-      "position": "顧問",
-      "startDate": "2013-09-01",
-      "summary": "教導學弟寫程式以及學生會官網的架設。",
-      "website": "https://www.facebook.com/nchusg",
-      "highlights": [
-        "伺服器使用 Linode"
-      ]
-    },
-    {
-      "endDate": "2012-06-30",
-      "organization": "彰化高中小蝸牛服務隊",
-      "position": "21屆總務長",
-      "startDate": "2009-07-01",
-      "summary": "回母校帶領小蝸牛校友服務隊，與學弟分享人生經驗，還有籌辦彰化高中的新生訓練，回饋母校，盡一己之薄力。",
-      "website": "https://www.facebook.com/CHSHsnail",
-      "highlights": []
-    },
-    {
-      "endDate": "2008-06-30",
-      "organization": "彰化高中電腦技術研究社",
-      "position": "程設教學長",
-      "startDate": "2007-09-01",
-      "summary": "進行 C++教學，帶領學弟練習 ACM、為學科能力競賽與 IOI 準備。",
-      "website": "https://www.facebook.com/CHSH.CITRC",
-      "highlights": []
+      "language": "English",
+      "fluency": "中等"
     }
   ],
-  "work": [
+  "interests": [],
+  "references": [
     {
-      "company": "車能網科技股份有限公司",
-      "endDate": "2025-07-20",
-      "position": "軟體開發部 副理",
-      "startDate": "2022-11-21",
-      "summary": "從無到有規劃了 Ionex 電動車物聯網的雲端，並參與後端及後台管理系統的開發。",
-      "website": "https://ionexenergy.com",
-      "highlights": [
-        "以 Protobuf 格式透過 MQTT 與電動車進行通訊",
-        "參與產測治具、車輛控制、接收感測器資料、遠端下達指令、告警事件、韌體更新等功能的開發",
-        "基於 AWS 的 IoT Core、ECS、Lambda、S3、ECR、Cloud Watch、CloudFront 等服務",
-        "高度整合 GitHub Actions 進行自動化測試及部署"
-      ]
-    },
-    {
-      "company": "微程式資訊股份有限公司",
-      "endDate": "2022-08-25",
-      "position": "高級工程師",
-      "startDate": "2017-08-15",
-      "summary": "以 Node.js 開發 LINE 聊天機器人，是 YouBike 的 LINE 官方帳號主要開發者之一，研究 NFC Mifare 測試卡自動測試，以及推廣 DevOps。",
-      "website": "https://www.program.com.tw",
-      "highlights": [
-        "LINE 聊天機器人「YouBike 微笑單車」主要開發者，好友數超過 40 萬",
-        "LINE 聊天機器人「YouBike Today - 小幫手」主要開發者，好友數超過 6 萬",
-        "透過 Proxmark3 研究 NFC Mifare 測試卡自動測試",
-        "桌遊社社長，每月定期舉辦桌遊活動"
-      ]
-    },
-    {
-      "company": "天匠數位娛樂股份有限公司",
-      "endDate": "2017-07-08",
-      "position": "伺服器工程師",
-      "startDate": "2014-08-11",
-      "summary": "主要負責手機遊戲伺服器程式的開發、架設以及維護。負責的遊戲為「奇幻射擊2」及一款尚未上市的遊戲。",
-      "website": "https://www.twfile.com/53308529",
-      "highlights": [
-        "使用的系統架構為 Ubuntu + PHP + MySQL + Nginx + Node.js + Redis",
-        "使用的雲端伺服器有 AWS 和 阿里雲",
-        "使用 Git 控管程式碼",
-        "遊戲有在台灣、中國、美國的 iOS 和 Android 上架",
-        "玩家帳號數量約 100 萬"
-      ]
-    },
-    {
-      "company": "興大圖書館校史館組",
-      "endDate": "2014-06-30",
-      "position": "網站維護工讀生",
-      "startDate": "2011-08-01",
-      "summary": "負責維護中興大學的機構典藏及校史相關網站及開發輔助程式。包含簡易程式修改，資料庫批次匯入匯出程式、及撰寫爬蟲程式。",
-      "website": "http://ir.lib.nchu.edu.tw",
-      "highlights": [
-        "撰寫爬蟲抓取學校其他系統的資料放入機構典藏網站",
-        "協助翻譯 DSpace 系統成繁體中文",
-        "協助翻新中興大學校史網站 (Joomla)",
-        "協助翻新中興大學圖書館首頁 (Joomla)"
-      ]
-    },
-    {
-      "company": "興大資工前瞻無線資訊網路實驗室",
-      "endDate": "2014-06-30",
-      "position": "網站維護工讀生",
-      "startDate": "2013-11-01",
-      "summary": "綠能科技相關的網站製作。可呈現探測器所記錄的資料給使用者 (含手機版網站)。",
-      "website": "https://awin.cs.nchu.edu.tw",
-      "highlights": []
-    },
-    {
-      "company": "國立中興大學校友中心",
-      "endDate": "2013-06-30",
-      "position": "網站維護工讀生",
-      "startDate": "2012-09-01",
-      "summary": "中興校友網站維護以及校友捐款紀錄系統，含獎狀列印、公文自動生成。",
-      "website": "http://alumni.nchu.edu.tw",
-      "highlights": []
-    },
-    {
-      "company": "興大圖書館參考組",
-      "endDate": "2013-06-30",
-      "position": "網站維護工讀生",
-      "startDate": "2012-09-01",
-      "summary": "圖書館館藏教育利用系統：報名、最新消息、預約開課、簽到單列印、匯出名單 CSV、教材。",
-      "website": "http://cal.lib.nchu.edu.tw",
-      "highlights": []
+      "name": "中興大學資訊科學與工程學系 陳煥 副教授",
+      "reference": "均民為中興資工系大學部的學生，本人為其修習之「智慧型手機應用程式開發」課程之教授。根據均民的課堂期末專案以及參加之校外比賽，後學很樂意為貴所推薦這一位學生。推薦理由簡述如下：\n\n1. 踴躍參加校外競賽：\n\n均民在大學期間，踴躍地參加許多資訊相關的競賽，如 ACM-ICPC 的區域賽、全國大專電腦設計競賽（NCPC）、中興大學大學部資訊專題決賽、2013 全國大專院校開放軟體創作競賽、大學程式能力檢定（CPE）…等，競賽類型包括單人以及組隊之競賽，競賽內容涵蓋演算法、資料庫、網頁程式語言、智慧型手機應用程式，且均獲得優異的成績，殊堪嘉許。\n\n2. 程式功力紮實：\n\n均民自高中開始，跟隨高中社團練習演算法，在線上解題系統練習許多題目，在大學程式能力檢定（CPE）中，更是拿到了三次 A 級，其中一次更是在參與檢定的考生中拿到前 3.3% 的亮眼成績。均民自大學一年級開始，開始學習網頁程式相關之知識，並且前前後後寫了很多練習用的網頁，在均民於中興大學圖書館工讀期間，更是有一套網頁系統，到目前為止累積了超過八萬人次的瀏覽量。均民自大四開始學習撰寫 Android 平台之應用程式，跟上目前新興的智慧型手機潮流，並且還參與相關之競賽，獲得優異的成績，並且為其專題研究之成果附加額外加值成果。\n\n3. 熱心助人：\n\n均民在大學期間，積極於社團帶領系上學弟練習演算法相關之線上解題系統，並且還於寒暑假期間，回高中母校服務學弟，帶領學弟增加實作能力，實為學弟之楷模。"
     }
-  ]
+  ],
+  "projects": [
+    {
+      "name": "chameleon-ultra.js",
+      "url": "https://taichunmin.idv.tw/chameleon-ultra.js/",
+      "startDate": "2023-08-18",
+      "description": "A JavaScript SDK for ChameleonUltra support Web Bluetooth API, Web Serial API and Node.js.",
+      "highlights": [
+        "Support Node.js, Browser",
+        "Written in TypeScript",
+        "MIT License"
+      ]
+    },
+    {
+      "name": "@taichunmin/buffer",
+      "url": "https://taichunmin.idv.tw/js-buffer/",
+      "startDate": "2024-04-16",
+      "description": "A cross platform alternative of Node buffer base on UInt8Array.",
+      "highlights": [
+        "Support Node.js, Browser and Web Worker",
+        "Written in TypeScript",
+        "MIT License"
+      ]
+    },
+    {
+      "name": "Ionex 電動車雲端平台",
+      "url": "https://www.ionex.com.tw/",
+      "startDate": "2023-02-18",
+      "description": "負責與電動車相關的雲端服務規劃與開發。對於一般用戶提供 APP 藍牙鑰匙、軟體更新、車輛定位等功能。對於企業用戶提供數據分析、遠端車控、車隊管理、批量軟體更新等功能。",
+      "highlights": [
+        "透過 BLE 與 LTE 進行軟體更新；對於企業用戶提供批量軟體更新",
+        "透過 MQTT 蒐集車輛感測器資料、告警事件、遠端車控及其他自定義指令",
+        "提供企業用戶專屬的雲端平台，可用來遠端查看車輛狀態、車輛控制、車隊管理等功能",
+        "後端: Apollo Server, GraphQL, MQTT, MySQL, Node.js, Protobuf, Redis, TypeScript, WebSocket",
+        "其他: AWS ECS, AWS IoT Core, AWS Lambda, Docker, GitHub, GitHub Actions"
+      ]
+    },
+    {
+      "name": "LINE 數位版名片",
+      "url": "https://taichunmin.idv.tw/liff-businesscard/",
+      "startDate": "2020-07-16",
+      "description": "這個開源專案提供使用者製作可以透過 LINE 分享給好友的個人名片及廣告傳單，一次幫全公司的同事製作名片，還能追蹤分享出去後的觀看裝置數 (曝光率)",
+      "highlights": [
+        "前端: HTML, Pug, Vue.js, LINE LIFF",
+        "MIT License 開放原始碼授權"
+      ]
+    },
+    {
+      "name": "YouBike LINE 官方帳號",
+      "url": "https://line.me/R/ti/p/@youbike",
+      "startDate": "2020-04-28",
+      "endDate": "2022-08-25",
+      "description": "負責伺服器端的規劃與開發。提供站點查詢、最愛站點、行程規劃等免登入就能用的功能；並結合原有的會員系統，提供騎乘紀錄查詢、活動進度查詢、獲獎紀錄查詢等功能。",
+      "highlights": [
+        "至 2022-08-25 為止官方帳號的好友人數超過 40 萬",
+        "結合 LINE Notify，提供借還車通知、站點鬧鐘等功能",
+        "結合 LINE Beacon，用來提供站點公佈欄、舉辦站點相關活動",
+        "透過 Web Bluetooth 來進行 LINE Beacon 硬體的韌體升級",
+        "前端: HTML, Pug, Vue.js, LINE LIFF",
+        "後端: LINE Messaging API, LINE Notify, Node.js, Express.js, MySQL, BigQuery, Redis, GCP Cloud Function, Ubuntu, Nginx",
+        "其他: Docker, GitLab, GitLab CI, jest (單元測試), git, Google Analytics, Arduino"
+      ]
+    }
+  ],
+  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/refs/heads/master/schema.json",
+  "meta": {
+    "theme": "macchiato",
+    "canonical": "https://registry.jsonresume.org/taichunmin.json",
+    "version": "1.0.0",
+    "lastModified": "2025-10-26T00:00:00"
+  }
 }
