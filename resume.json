@@ -1,13 +1,13 @@
 {
   "basics": {
-    "name": "戴均民",
-    "label": "網站後端工程師",
+    "name": "戴均民 (Chun-Min Tai)",
+    "label": "資深後端工程師 | LINE API 專家",
     "image": "https://www.gravatar.com/avatar/8d9b432d861e4ac0e40954a800ae90a1?s=2048",
     "email": "taichunmin@gmail.com",
     "phone": "0932859222",
     "birthday": "1991-07-30",
     "url": "https://taichunmin.idv.tw",
-    "summary": "擁有 10+ 年後端開發經驗的資深工程師，專精於 Node.js 生態系。從無到有規劃電動車 IoT 雲端平台，支援企業級車隊管理。LINE 官方認證 API Expert，曾開發過超過 40 萬用戶數的官方帳號。開源貢獻者，GitHub 專案累計 500+ stars，技術文章 50+ 篇。Web 與嵌入式整合專家，實現瀏覽器直控 RFID/NFC 設備。",
+    "summary": "擁有 10+ 年經驗的資深後端工程師，專精於 Node.js 生態系。主導設計並實作電動車 IoT 平台與十萬用戶級的 LINE 官方帳號，同時也是 LINE 官方認證的 API 專家。開源貢獻者，GitHub 專案累計 500+ stars，技術文章 50+ 篇。Web 與嵌入式整合專家，實現瀏覽器直控 RFID/NFC 設備。",
     "location": {
       "address": "台灣台中市南區",
       "postalCode": "402",
@@ -55,30 +55,30 @@
       "url": "https://ionexenergy.com",
       "startDate": "2022-11-21",
       "endDate": "2025-07-20",
-      "summary": "從零打造電動車 IoT 雲端平台，服務數百台電動車與企業客戶。負責完整技術架構設計、並實際參與開發。",
+      "summary": "主導並從零開始設計、建構電動車 IoT 雲端平台。此平台不僅服務終端消費者，更為 B2B 企業客戶提供完整的車隊管理解決方案，展現了從概念到產品落地的全方位技術實力。",
       "highlights": [
-        "架構成果：基於 AWS 實現高可用性 IoT 平台，支援數百台電動車同時上報資料，每台電動車每月約上傳 50MB+ 的資料。",
-        "通訊協議：基於 MQTT + Protobuf，節省網路頻寬並保留未來擴展性",
-        "團隊合作：與開發團隊成員合作，建立程式碼審查與技術分享機制",
-        "核心功能：支援企業級車隊管理，APP 藍牙鑰匙、OTA 韌體更新、即時車輛定位、遠端車控、告警系統、數據分析儀表板",
-        "相關技術：Node.js + TypeScript + GraphQL + MQTT + MySQL + Redis + AWS IoT Core + AWS ECS + AWS Lambda + Docker + GitHub + GitHub Actions"
+        "架構成就：設計並實作高可用性、可水平擴展的 IoT 平台，成功支援數百台車輛的即時數據上傳與指令下達，處裡每月每台電動車 50MB+ 的資料量。",
+        "通訊協議：以 MQTT + Protobuf 為核心的通訊協議，有效降低大量網路頻寬成本，並確保未來功能擴展的彈性。",
+        "團隊合作：堅守 Code Review 與技術分享機制，提升團隊程式碼品質與整體技術水平，並大量導入 CI/CD 流程。",
+        "核心功能：完成企業級車隊管理、APP 藍牙鑰匙、OTA 韌體更新、即時車輛定位、遠端車控、告警系統、數據分析儀表板等多項核心功能的架構設計與開發。",
+        "相關技術：Node.js, TypeScript, GraphQL, MQTT, MySQL, Redis, AWS (IoT Core, ECS, Lambda, S3), Docker, GitHub Actions"
       ]
     },
     {
       "name": "微程式資訊股份有限公司",
-      "position": "高級工程師",
+      "position": "資深後端工程師",
       "url": "https://www.program.com.tw",
       "startDate": "2017-08-15",
       "endDate": "2022-08-25",
-      "summary": "主導大型 LINE 聊天機器人開發，用戶規模超過 40 萬。專精於 LINE 聊天機器人及優化 NFC 測試流程，推動公司 DevOps 文化轉型。",
+      "summary": "作為核心開發者，主導台灣最大共享單車「YouBike」的 LINE 官方帳號開發，成功打造超過 40 萬用戶的官方帳號。專精於 LINE 官方帳號開發與優化 NFC 測試，並積極推動公司 DevOps 文化轉型。",
       "highlights": [
-        "產品成就：主導 LINE 官方帳號「YouBike 微笑單車」的開發，用戶規模超過 40 萬",
-        "虛實整合：官方帳號結合 LINE Beacon 實現站點互動、活動推廣、定位追蹤",
+        "產品成就：主導開發的「YouBike 微笑單車」LINE 官方帳號，用戶數超過 40 萬，成為台灣交通類應用的標竿產品。",
+        "虛實整合：官方帳號結合 LINE Beacon 實現站點互動、活動推廣、定位追蹤。",
         "內部工具：提前預警硬體電量、以 Web Bluetooth 實作韌體升級工具",
-        "數據洞察：接入 BigQuery 大數據分析，提供用戶行為分析與營運決策支援",
-        "技術研發：參與開發 NFC Mifare 自動化測試系統，提升 QA 效率",
-        "團隊凝聚：創辦桌遊社並擔任社長，透過社團活動培養同事凝聚力",
-        "相關技術：Node.js + Express + MySQL + Redis + GCP + BigQuery + Docker + GitLab CI"
+        "數據驅動：接入 BigQuery 大數據分析，提供用戶行為分析與營運決策支援。",
+        "測試優化：參與開發 NFC Mifare 自動化測試系統，大幅提升 QA 效率。",
+        "團隊凝聚：創辦公司內部桌遊社並擔任社長，透過社團活動培養同事凝聚力。",
+        "相關技術：Node.js, Express, MySQL, Redis, GCP (BigQuery, Cloud Functions), Docker, GitLab CI"
       ]
     },
     {
@@ -87,12 +87,12 @@
       "url": "https://www.twfile.com/53308529",
       "startDate": "2014-08-11",
       "endDate": "2017-07-08",
-      "summary": "負責手遊「奇幻射擊 2」後端系統設計與維運，支援全球 100 萬註冊用戶的遊戲體驗。",
+      "summary": "負責手遊「奇幻射擊 2」的後端系統設計與維運，成功支援全球百萬註冊用戶，確保遊戲服務的穩定與安全。",
       "highlights": [
-        "全球部署：成功上架台灣、中國、美國三地 App Store & Google Play",
-        "規模成就：用戶數超過 100 萬",
-        "資料安全：避免玩家篡改遊戲資料作弊及防止假儲值",
-        "相關技術：LAMP + Node.js + Redis"
+        "產品成就：系統成功支撐超過 100 萬註冊用戶，並在高併發時段維持服務穩定。",
+        "多國運營：負責遊戲在台灣、中國、美國三地的 App Store & Google Play 上架與後端維護。",
+        "遊戲安全：設計並實作多層次防護機制，有效防止玩家利用外掛篡改遊戲數據及假儲值等作弊行為，保障遊戲公平性。",
+        "相關技術：LAMP (Linux, Apache, MySQL, PHP), Redis"
       ]
     },
     {
@@ -143,13 +143,13 @@
       "position": "LINE API Expert (Taiwan)",
       "url": "https://developers.line.biz/en/community/api-experts/tw-chun-min-tai/",
       "startDate": "2020-08-19",
-      "summary": "這個身份是給予對 LINE 提供的 API 有深刻了解，並且熱衷於分享其技術心得的專業人士，截至 2022-05-15 為止台灣僅有 11 位專家，其性質類似 Google Developer Expert 和 Microsoft Most Valuable Professional。",
+      "summary": "獲 LINE 官方認證為台灣 API 專家 (全台僅 11 位)，此身份類似於 Google GDE 與微軟 MVP，代表在 LINE 平台開發領域的頂尖技術實力與社群貢獻。",
       "highlights": [
-        "內容創作：發表 50+ 篇 LINE API 技術文章",
-        "技術分享：COSCUP、SITCON 等大型研討會講師",
-        "開源專案：「LINE 數位版名片」破 100 萬瀏覽，GitHub 150+ forks",
-        "開發工具：創建「Flex 開發人員工具」，協助開發者除錯",
-        "社群影響：LINE Developer Community 活躍貢獻者，協助解決技術問題"
+        "知識分享：發表超過 50 篇高品質 LINE API 技術文章。",
+        "技術演講：擔任 COSCUP、SITCON 等大型技術研討會講師，分享實戰經驗。",
+        "開源貢獻：「LINE 數位版名片」專案在 GitHub 上獲得超過 150 forks，並創造百萬級觀看數。",
+        "工具開發：創建「Flex 開發人員工具」，簡化開發者的除錯流程，提升開發效率。",
+        "社群領袖：作為 LINE Developer Community 的活躍成員，積極協助開發者解決技術難題，推動社群發展。"
       ]
     },
     {
@@ -233,14 +233,14 @@
     {
       "title": "2024 iThome 鐵人賽 JavaScript 組佳作",
       "date": "2025-02-15",
-      "awarder": "iThome 鐵人賽 主辦單位",
-      "summary": "連續 30 天發表技術文章，以「免安裝！一起用 JS 來控制開源的 NFC 讀卡機變色龍吧！」系列文章榮獲佳作。展現深厚的硬體整合與 Web API 技術實力，截至 2025-10-29 為止文章累計閱讀超過 40,000 次。"
+      "awarder": "iThome",
+      "summary": "以「免安裝！一起用 JS 來控制開源的 NFC 讀卡機變色龍吧！」為主題，連續 30 天發表高品質技術文章，展現深厚的網頁與 NFC 讀卡機的整合能力，系列文章累計閱讀量超過 4 萬次。"
     },
     {
       "title": "2013 全國大專校院開放軟體創作競賽 銅牌",
       "date": "2013-06-25",
-      "awarder": "教育部長 蔣偉寧",
-      "summary": "大學時期以「新聞推推樂」創新應用榮獲教育部主辦的全國競賽銅牌，展現早期的創新思維與技術實力，為後續職涯發展奠定基礎。"
+      "awarder": "教育部",
+      "summary": "大學時期以「新聞推推樂」專案榮獲教育部主辦的全國性競賽銅牌，早期即展現出色的創新思維與技術實踐能力。"
     }
   ],
   "publications": [],
@@ -249,12 +249,12 @@
       "name": "網站後端",
       "level": "精通",
       "keywords": [
+        "Node.js (精通)",
+        "TypeScript (精通)",
         "Express (精通)",
         "GraphQL (精通)",
         "MySQL (精通)",
-        "Node.js (精通)",
         "Redis (精通)",
-        "TypeScript (精通)",
         "C (中等)",
         "PHP (中等)",
         "Python 3 (中等)",
@@ -330,51 +330,50 @@
       "name": "chameleon-ultra.js",
       "url": "https://taichunmin.idv.tw/chameleon-ultra.js/",
       "startDate": "2023-08-18",
-      "description": "控制開源 NFC 讀卡機 ChameleonUltra 的 JavaScript SDK，實現瀏覽器直接控制硬體設備的創新應用。支援跨平台與 TypeScript 完整型別支援。",
+      "description": "一個開創性的開源專案，透過 Web Bluetooth/Serial API 讓瀏覽器能直接與 NFC 硬體 ChameleonUltra 通訊。此專案不僅展現了深度網頁與硬體的整合能力，也為 NFC/RFID 應用開闢了新的可能性。",
       "highlights": [
-        "GitHub 50+ stars，技術創新獲社群認可",
-        "協議支援：支援 Web Bluetooth + Web Serial 雙協議",
-        "跨平台相容：支援 Node.js + PC  + 手機瀏覽器",
-        "技術文件完整，以此專案為主題的文章獲選 2024 iThome 鐵人賽佳作",
-        "以 TypeScript 開發，型別安全與開發體驗兼顧"
+        "專案成就：在 GitHub 超過 50 stars，技術創新獲社群認可",
+        "技術創新：實現了網頁與硬體的直接溝通，無需安裝任何驅動程式。",
+        "多平台支援：SDK 同時支援 Node.js 與瀏覽器環境，提供極高的開發彈性。",
+        "社群認可：以其為主題的系列文章榮獲 2024 iThome 鐵人賽佳作。",
+        "型別安全：完全使用 TypeScript 開發，提供完整的型別定義，提升了代碼的健壯性與可維護性。"
       ]
     },
     {
       "name": "@taichunmin/buffer",
       "url": "https://taichunmin.idv.tw/js-buffer/",
       "startDate": "2024-04-16",
-      "description": "A cross platform alternative of Node buffer base on UInt8Array.",
+      "description": "一個基於 Uint8Array 的 Node.js Buffer 替代品，旨在提供一個在瀏覽器、Web Worker 和 Node.js 環境中都能一致運作的 Buffer API。",
       "highlights": [
-        "Support Node.js, Browser and Web Worker",
-        "Written in TypeScript",
-        "MIT License"
+        "全域兼容：解決了在不同 JavaScript 運行環境中處理二進制數據的痛點。",
+        "功能完整：實現了大部分 Node.js Buffer 的核心 API，易於遷移。",
+        "MIT 授權：完全開源，可自由應用於商業專案。"
       ]
     },
     {
       "name": "Ionex 電動車雲端平台",
       "url": "https://www.ionex.com.tw/",
       "startDate": "2023-02-18",
-      "description": "負責與電動車相關的雲端服務規劃與開發。對於一般用戶提供 APP 藍牙鑰匙、軟體更新、車輛定位等功能。對於企業用戶提供數據分析、遠端車控、車隊管理、批量軟體更新等功能。",
+      "description": "負責規劃與開發與電動車深度整合的雲端服務平台，為 B2C 及 B2B 市場提供全方位的車聯網解決方案。",
       "highlights": [
-        "透過 BLE 與 LTE 進行軟體更新；對於企業用戶提供批量軟體更新",
-        "透過 MQTT 蒐集車輛感測器資料、告警事件、遠端車控及其他自定義指令",
-        "提供企業用戶專屬的雲端平台，可用來遠端查看車輛狀態、車輛控制、車隊管理等功能",
-        "後端: Apollo Server, GraphQL, MQTT, MySQL, Node.js, Protobuf, Redis, TypeScript, WebSocket",
-        "其他: AWS ECS, AWS IoT Core, AWS Lambda, Docker, GitHub, GitHub Actions"
+        "韌體更新：設計並實現透過 BLE 與 LTE 進行的遠程韌體更新機制，並為企業客戶提供批量更新功能。",
+        "即時數據：利用 MQTT 協議，高效收集車輛感測器數據、告警事件，並實現遠端車輛控制及其他自定義功能。",
+        "企業服務：為 B2B 客戶打造了專屬的雲端平台，提供車輛狀態監控、遠端控制、車隊管理等高級功能。",
+        "後端技術：Apollo Server, GraphQL, MQTT, MySQL, Node.js, Protobuf, Redis, TypeScript, WebSocket",
+        "其他技術：AWS (ECS, IoT Core, Lambda, S3), Docker, GitHub Actions"
       ]
     },
     {
       "name": "LINE 數位版名片",
       "url": "https://taichunmin.idv.tw/liff-businesscard/",
       "startDate": "2020-07-16",
-      "description": "革命性數位名片解決方案，讓用戶可輕鬆進行病毒式行銷，或建立品牌形象與客戶互動。突破傳統紙本限制。",
+      "description": "一個革命性的數位名片解決方案，讓用戶能輕鬆製作並分享專業的數位名片及具有病毒式傳播潛力的數位廣告傳單，有效提升品牌曝光與客戶互動。",
       "highlights": [
-        "目光焦點：截至 2025-10-29 為止累計超過 100 萬裝置觀看數",
-        "行銷利器：500+ 個人及公司使用，包含仲介、網購、候選人、旅行社等",
-        "數據洞察：免費瀏覽統計報表，快速查看熱門廣告及行銷活動成效",
-        "設計彈性：支援客製化樣板，滿足不同品牌視覺需求",
-        "相關技術：LIFF + Vue.js 打造流暢用戶體驗",
-        "開源貢獻：專案完全免費使用，程式碼以 MIT 授權公開"
+        "百萬流量：截至 2025 年，已累積超過 100 萬裝置觀看數，證明其強大的市場吸引力。",
+        "廣泛應用：被超過 500 個個人及企業用戶採用，涵蓋仲介、業務、電商、政治人物、旅遊業等多個領域。",
+        "數據驅動：提供免費的瀏覽統計報表，幫助用戶快速評估行銷活動成效。",
+        "高度客製：支援自定義模板，滿足不同品牌的視覺與功能需求。",
+        "相關技術：LIFF + Vue.js，打造流暢且功能豐富的使用者體驗。"
       ]
     },
     {
@@ -382,29 +381,27 @@
       "url": "https://line.me/R/ti/p/@youbike",
       "startDate": "2020-04-28",
       "endDate": "2022-08-25",
-      "description": "負責伺服器端的規劃與開發。提供站點查詢、最愛站點、行程規劃等免登入就能用的功能；並結合原有的會員系統，提供騎乘紀錄查詢、活動進度查詢、獲獎紀錄查詢等功能。",
+      "description": "作為核心開發者，負責台灣最大共享單車 YouBike 的 LINE 官方帳號的伺服器端規劃與開發，打造了一個整合交通、社交的完整生態系。",
       "highlights": [
-        "規模成就：好友數超過 40 萬，成為台灣交通類代表性的 LINE 官方帳號",
-        "虛實整合：官方帳號結合 LINE Beacon 實現站點互動、活動推廣、定位追蹤",
-        "內部工具：提前預警硬體電量、以 Web Bluetooth 實作韌體升級工具",
-        "智能服務：推薦最佳路線，即時站點資訊，個人化騎乘分析",
-        "主動通知：LINE Notify 整合，提供借還車提醒、活動通知",
-        "大數據：接入 BigQuery 分析用戶行為，優化服務策略",
-        "相關技術：Node.js + Vue.js + MySQL + GCP + Docker + CI/CD"
+        "專案成就：官方帳號好友數超過 40 萬，成為台灣交通類應用的標竿。",
+        "虛實整合：創新地結合 LINE Beacon，實現了站點打卡、活動推播等線上線下互動功能。",
+        "內部工具：開發了基於 Web Bluetooth 的韌體升級工具，並建立硬體電量預警系統。",
+        "智慧服務：提供路線推薦、即時站點資訊、個人化騎乘分析等智慧功能。",
+        "即時通知：整合 LINE Notify，提供借還車提醒、活動通知等個人化訊息。",
+        "數據驅動：接入 BigQuery 大數據分析，提供用戶行為分析與營運決策支援。",
+        "相關技術：Node.js, Vue.js, MySQL, Redis, GCP, Docker, CI/CD"
       ]
     },
     {
       "name": "Flex 開發人員工具",
       "url": "https://github.com/taichunmin/gcf-line-devbot",
       "startDate": "2019-12-25",
-      "description": "為了輔助開發 LINE chatbot 而製作的小工具，在收到 Messaging API 的 Event 時會直接回傳 JSON，傳送 Message JSON 或是從 Flex Message Simulator 複製的 JSON 就能直接看到顯示結果！",
+      "description": "一個為 LINE 官方帳號開發者設計的輔助工具，旨在簡化和加速 Flex Message 及其他 Messaging API 功能的測試與除錯流程。",
       "highlights": [
-        "顯示從 Webhook 收到的 Event 以 JSON 回傳，方便實測資料內容",
-        "把從用戶收到的 Message Object 直接回傳，方便測試回傳訊息",
-        "快速跨 Android / iOS / PC 預覽訊息顯示結果",
-        "支援直接預覽 Flex 訊息模擬器所匯出的 JSON",
-        "帶你超快速認識圖文選單的「圖文選單遊樂場」及測試選單切換速度",
-        "快速實測部分 Message API"
+        "即時預覽：開發者可以直接發送從 Flex Message Simulator 複製的 JSON，並在不同裝置上快速預覽顯示效果。",
+        "Webhook 除錯：能即時回傳從 Webhook 收到的 Event JSON，方便開發者確認資料內容。",
+        "互動式學習：內建「圖文選單遊樂場」，讓開發者能快速學習並測試圖文選單的各種功能。",
+        "效率提升：提供多種 Message API 的快速實測功能，大幅縮短開發週期。"
       ]
     }
   ],
@@ -412,7 +409,7 @@
   "meta": {
     "theme": "macchiato",
     "canonical": "https://registry.jsonresume.org/taichunmin.json",
-    "version": "1.0.1",
-    "lastModified": "2025-10-29T00:00:00"
+    "version": "1.0.2",
+    "lastModified": "2025-10-30T00:00:00"
   }
 }
